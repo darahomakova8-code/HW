@@ -1,15 +1,8 @@
-# Мой веб-проект
+# Это 2 ДЗ 
 
-Этот проект содержит домашние задания по веб-разработке.
+ссылка на фирму  https://www.figma.com/design/sFoMFv0Ow0ihAPdxK89Jeq/Travel-Template--Copy-?node-id=0-1&t=xjhkPRU5WZzIPHuH-1
 
-## Структура проекта
-- `src/` - исходный код
-  - `index12.html`, `index21.html`, `index31.html` - HTML страницы
-  - `scripts/` - JavaScript модули
-  - `styles/` - CSS стили
-  - `assets/` - иконки
+  - `index12.html`, `index21.html`, `index31.html` - 3 странички проекта 
+  - `assets/` - они не нужны, случайно добавила
 
-## Как запустить
-```bash
-npm install
-npm start
+
