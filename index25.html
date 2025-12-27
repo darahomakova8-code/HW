@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<link rel="stylesheet" href="./styles/reset.css">
+<link rel="stylesheet" href="./styles/base.css">
+<link rel="stylesheet" href="./styles/layout.css">
+<link rel="stylesheet" href="./styles/components.css">
+<link rel="stylesheet" href="./styles/responsive.css">
+<link rel="stylesheet" href="./styles/style-interactive.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@ficons/fluent@1.0.0/fi.css">
+<title>Destination Details | Triptopia</title>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500;600&family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+<script type="module" defer src="./scripts/main23.js"></script>
+
+</head>
+<body>
+    <div class="header-nav">
+        <span class="logo">Triptopia</span>
+        <nav class="nav-menu">
+            <a href="#" class="nav-link">Home <span class="nav-arrow">⌄</span></a>
+            <a href="#" class="nav-link">Blog <span class="nav-arrow">⌄</span></a>
+            <a href="#" class="nav-link active">Destination <span class="nav-arrow">⌄</span></a>
+            <a href="#" class="nav-link">Pages <span class="nav-arrow">⌄</span></a>
+            <a href="#" class="nav-link">Contact</a>
+        </nav>
+        <button class="book-trip-btn">Book Trip</button>
+    </div>
+
+    <section class="banner">
+        <h1>CHECKOUT</h1>
+        <div class="breadcrumb">
+            Home <span class="separator">•</span> <span class="orange">CHECKOUT</span>
+        </div>
+    </section>
+
+    <div class="cards-container">
+        <div class="form-card">
+            <h1 class="page-title">Confirm and Pay</h1>
+
+            <div class="form-section">
+                <h3><span class="step-number">1</span> Shipping Information</h3>
+                
+                <div class="form-group">
+                    <label>Billing Address</label>
+                    <div class="form-row">
+                        <div class="form-col">
+                            <input type="text" placeholder="First Name" />
+                        </div>
+                        <div class="form-col">
+                            <input type="text" placeholder="Last Name" />
+                        </div>
+                    </div>
+                    <div class="form-full">
+                        <input type="text" placeholder="Full Address" />
+                    </div>
+                    <div class="form-full">
+                        <input type="text" placeholder="Full Address 2 (optional)" />
+                    </div>
+                </div>
+                
+                <div class="form-group">
+                    <label>Shipping Address</label>
+                    <div class="form-row">
+                        <div class="form-col">
+                            <input type="text" placeholder="First Name" />
+                        </div>
+                        <div class="form-col">
+                            <input type="text" placeholder="Last Name" />
+                        </div>
+                    </div>
+                    <div class="form-full">
+                        <input type="text" placeholder="Full Address" />
+                    </div>
+                    <div class="form-full">
+                        <input type="text" placeholder="Full Address 2 (optional)" />
+                    </div>
+                </div>
+            </div>
+
+            <div class="form-section">
+                <h3><span class="step-number">2</span> Payment Methods</h3>
+
+                <div class="payment-option">
+                    <div class="payment-radio">
+                        <input type="radio" id="paypal" name="payment" value="paypal" checked>
+                    </div>
+                    <label for="paypal" class="payment-label">
+                        <div class="payment-title">Pay with PayPal</div>
+                        <div class="payment-desc">You will be redirected to PayPal website to complete your purchase securely</div>
+                    </label>
+                </div>
+
+                <div class="payment-option">
+                    <div class="payment-radio">
+                        <input type="radio" id="credit" name="payment" value="credit">
+                    </div>
+                    <div class="payment-content">
+                        <label for="credit" class="payment-label">
+                            <div class="payment-title">Credit / Debit Card</div>
+                            <div class="payment-desc">We support Mastercard, Visa, Discover and Stripe.</div>
+                        </label>
+                        
+                        <div class="card-fields">
+                            <div class="form-group">
+                                <label>Card Number</label>
+                                <input type="text" placeholder="XXXX XXXX XXXX XXXX" maxlength="19" />
+                            </div>
+                            
+                            <div class="form-group">
+                                <label>Card Holder</label>
+                                <input type="text" placeholder="Peter Parker" />
+                            </div>
+                            
+                            <div class="form-row">
+                                <div class="form-col">
+                                    <div class="form-group">
+                                        <label>Expiration Date</label>
+                                        <input type="text" placeholder="MM/YY" />
+                                    </div>
+                                </div>
+                                <div class="form-col">
+                                    <div class="form-group">
+                                        <label>CVC</label>
+                                        <input type="text" placeholder="****" maxlength="3" />
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="summary-card">
+            <div class="order-summary">
+                <h3><span class="step-number">3</span> Order Summary</h3>
+                
+                <div class="order-item">
+                    <div class="order-image-placeholder">TOUR</div>
+                    <div class="order-details">
+                        <div class="order-title">Warsaw Day Tour</div>
+                        <div class="order-rating">
+                            <span class="stars">★</span>
+                            <span class="rating-text">5.0 (234 reviews)</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="order-breakdown">
+                    <div class="breakdown-row">
+                        <span>Service charge</span>
+                        <span>$20.00</span>
+                    </div>
+                    <div class="breakdown-row">
+                        <span>Discount</span>
+                        <span>Free</span>
+                    </div>
+                    <div class="breakdown-total">
+                        <span>Total</span>
+                        <span>$20.00</span>
+                    </div>
+                </div>
+                
+                <button class="complete-booking-btn">Complete Booking</button>
+                
+            </div>
+        </div>
+    </div>
+
+
+<div class="footer-offer" aria-label="Subscription form">
+    <div>
+    <div style="font-size:35px;font-weight:700;letter-spacing:-1px;margin-bottom:19px;">Get our pro offers</div>
+    <div>Create a visual identity for your company, and an overall branding that stands out.</div>
+    </div>
+    <form>
+    <div style="display:flex;align-items:center;width:100%;background:#fff;border-radius:9px;box-shadow:0 2px 10px #0001;overflow:hidden;">
+        <input type="email" name="email" placeholder="Enter your email" required>
+        <button type="submit">Subscribe</button>
+    </div>
+    </form>
+</div>
+
+    <footer>
+        <div class="footer-main">
+            <div class="footer-row">
+                <div class="footer-col">
+                    <div class="footer-logo">Triptopia</div>
+                    <div class="footer-text">Hello, we are Lift Media. Our goal is to translate the positive effects from revolutionizing</div>
+                    <div>
+                        <span style="color:#1b374e;font-size:21px;margin-right:7px;">&#xf09a;</span>
+                        <span style="color:#1b374e;font-size:21px;margin-right:7px;">&#xf0d5;</span>
+                        <span style="color:#1b374e;font-size:21px;margin-right:7px;">&#xf16d;</span>
+                        <span style="color:#1b374e;font-size:21px;">&#xf099;</span>
+                    </div>
+                </div>
+                <div class="footer-col">
+                    <div class="footer-heading">About</div>
+                    <div class="footer-link">About Us</div>
+                    <div class="footer-link">Our Services</div>
+                    <div class="footer-link">Privacy Policy</div>
+                    <div class="footer-link">Terms & Conditions</div>
+                </div>
+                <div class="footer-col">
+                    <div class="footer-heading">Contact</div>
+                    <div class="footer-text">📞 +012 345 6790</div>
+                    <div class="footer-text">📧 cxqxs@example.com</div>
+                    <div class="footer-text">🏠 123 Street, New York, USA</div>
+                </div>
+                <div class="footer-col">
+                    <div class="footer-heading">Gallery</div>
+                    <div class="footer-gallery">
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer-note">&copy; 2024 Triptopia. All rights reserved</div>
+    </footer>
+</body>
+</html>
