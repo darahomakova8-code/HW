@@ -1,5 +1,0 @@
-requests
-chromadb
-langdetect
-transformers
-torch
