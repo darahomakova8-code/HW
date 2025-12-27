@@ -1,0 +1,110 @@
+/* ===== HEADER LAYOUT ===== */
+.header-nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background: white;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 40px;
+    z-index: 1000;
+}
+
+/* ===== BANNER LAYOUT ===== */
+.banner {
+    background: linear-gradient(rgba(1, 46, 65, 0.9), rgba(1, 46, 65, 0.8)), url('https://images.unsplash.com/photo-1488646953014-85cb44e25828?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&q=80');
+    background-size: cover;
+    background-position: center;
+    color: white;
+    height: 270px;
+    padding: 0 8vw;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 35px;
+}
+
+/* ===== CARDS CONTAINER LAYOUT ===== */
+.cards-container {
+    background: white;
+    border-radius: var(--radius);
+    display: flex;
+    gap: 38px;
+    padding: 24px;
+    box-sizing: border-box;
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto 55px auto;
+}
+
+.main-card {
+    flex: 1 1 0%;
+    min-width: 320px;
+    max-width: 700px;
+    padding: 0;
+}
+
+.sidebar-card {
+    max-width: 340px;
+    width: 100%;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+/* ===== FOOTER LAYOUT ===== */
+.footer-offer {
+    max-width: 1080px;
+    background: #26A59E;
+    margin: 42px auto 0 auto;
+    border-radius: 16px;
+    padding: 44px 42px 38px 44px;
+    text-align: left;
+    color: #fff;
+    font-weight: 400;
+    box-shadow: 0 6px 40px #0a463e30;
+    font-size: 17px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    box-sizing: border-box;
+}
+
+footer {
+    background: #f4f8fb;
+}
+
+.footer-main {
+    background: #f4f8fb;
+    padding: 48px 0;
+}
+
+.footer-row {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    gap: 44px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.footer-col {
+    flex: 1 1 200px;
+    min-width: 140px;
+}
+
+.footer-note {
+    text-align: center;
+    color: #8b8b8b;
+    font-size: 14px;
+    margin: 16px auto 14px auto;
+    max-width: 1100px;
+}
